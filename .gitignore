@@ -1,12 +1,31 @@
-# Ignorar arquivos temporários
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Django
 *.log
-*.tmp
+db.sqlite3
+media/
+staticfiles/
 
-# Ignorar pastas específicas
-/node_modules/
-/build/
+# Streamlit
+.streamlit/
 
-# Ignorar configurações locais
-.env
+# IDEs/Editors
+.vscode/
+.idea/
+
+# OS-specific
 .DS_Store
-venv
+Thumbs.db
+
+# Dev
+
+.flake8
